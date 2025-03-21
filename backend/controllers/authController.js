@@ -1,7 +1,5 @@
-exports.signup = (req, res) => {
-  res.send("Signup controller ishladi");
-};
+const pool = require("../config/db");
+const brycpt = require("bcrypt");
 
-exports.login = (req, res) => {
-  res.send("Login controller ishladi");
-};
+
+// Signup Section
